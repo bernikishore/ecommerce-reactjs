@@ -25,7 +25,7 @@ export default function CartItem({item, value}) {
                 <span className="bnt bnt-black btn-remove" onClick={() => removeItem(id)}>Remove</span>
             </div>
             <div className="col-10 mx-auto col-lg-2">
-                <strong><span className="d-lg-none">Item Total: </span>$ {price}</strong>
+                <strong><span className="d-lg-none">Item Total: </span>$ {total}</strong>
             </div>
         </div>
     )
