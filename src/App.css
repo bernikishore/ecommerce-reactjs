@@ -50,3 +50,9 @@ body {
   background: var(--mainDark);
   color: var(--mainWhite);
 }
+
+
+img {
+max-width: 100%;
+
+}
